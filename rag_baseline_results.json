@@ -1,0 +1,38 @@
+[
+  {
+    "query": "What is the core principle of PLG according to the transcripts?",
+    "retrieved_count": 8,
+    "answer": "I don't know.",
+    "groundedness": {
+      "is_grounded": true,
+      "hallucination": false,
+      "unsupported": false,
+      "contradiction": false,
+      "reasoning": "The conversation is a transcript of an interview with Patrick Campbell and Lane Shackleton. The questions are asked by Lenny, and the answers provide insights into product management principles and practices. The factual statements in the conversation are mostly supported by the context, and there is no evidence of hallucination or contradiction."
+    }
+  },
+  {
+    "query": "Who said 'Growth is a system, not a tactic'?",
+    "retrieved_count": 8,
+    "answer": "I don't know.",
+    "groundedness": {
+      "is_grounded": true,
+      "hallucination": false,
+      "unsupported": false,
+      "contradiction": false,
+      "reasoning": "The answer 'I don't know' is directly stated in response to a question about when to hire a head of growth. The context does not provide any additional information that would contradict or support this statement, so it is considered grounded."
+    }
+  },
+  {
+    "query": "What specific metric does Amplitude use to measure retention?",
+    "retrieved_count": 8,
+    "answer": "I don't know.",
+    "groundedness": {
+      "is_grounded": true,
+      "hallucination": false,
+      "unsupported": false,
+      "contradiction": false,
+      "reasoning": "The answer 'I don't know' is directly stated in response to a question about an example of being stuck on a metric. The context does not provide any evidence that contradicts this statement, and the rules do not require additional information to be provided."
+    }
+  }
+]
