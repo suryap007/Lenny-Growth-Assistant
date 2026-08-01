@@ -17,7 +17,7 @@ export default function Sidebar({ sessions, activeSessionId, onSelectSession, on
             title={session.title || 'New Chat'}
           >
             <MessageSquare size={16} />
-            {session.title || 'New Chat'}
+            <span>{session.title || 'New Chat'}</span>
           </div>
         ))}
       </div>

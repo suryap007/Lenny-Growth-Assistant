@@ -124,15 +124,19 @@ function App() {
       const assistantMsg = { 
         id: Date.now() + 1, 
         role: 'assistant', 
-        content: data.answer,
-        artifact_type: data.artifact?.artifact_type,
-        artifact_content: data.artifact?.artifact_content
+        content: data.content || data.answer,
+        artifact_type: data.artifact?.type || data.artifact?.artifact_type,
+        artifact_content: data.artifact?.content || data.artifact?.artifact_content
       }
       
       if (activeSessionIdRef.current === currentSessionId) {
         setMessages(prev => [...prev, assistantMsg])
         if (data.artifact) {
-          setActiveArtifact(data.artifact)
+          setActiveArtifact({
+            artifact_type: data.artifact.type || data.artifact.artifact_type,
+            artifact_title: data.artifact.title || data.artifact.artifact_title,
+            artifact_content: data.artifact.content || data.artifact.artifact_content
+          })
         }
       }
       // Refresh sessions to get updated title

@@ -1,0 +1,6 @@
+Classify the user request into exactly one label based on the following rules:
+- qa: For general questions, advice, summaries, or questions about Lenny's podcast.
+- ship30: For any requests asking to write an essay, a viral post, or a Ship30for30 piece.
+- code: For requests asking to write a script, programming code, CSS, HTML, or software components.
+
+Return only the label, no explanation.

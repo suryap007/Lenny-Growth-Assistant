@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import Optional, List, Dict, Any
 from uuid import UUID
 from datetime import datetime
@@ -17,9 +17,10 @@ class SourceSchema(BaseModel):
     score: float
 
 class ChatResponse(BaseModel):
-    answer: str
-    artifact: Optional[ArtifactSchema] = None
-    sources: List[SourceSchema] = []
+    intent: str
+    content: str
+    artifact: Optional[dict] = None
+    sources: Optional[list] = None
 
 class SessionResponse(BaseModel):
     id: UUID
@@ -34,8 +35,8 @@ class MessageResponse(BaseModel):
     id: UUID
     role: str
     content: str
-    artifact_type: Optional[str]
-    artifact_content: Optional[str]
+    artifact_type: Optional[str] = None
+    artifact_content: Optional[str] = None
     created_at: datetime
 
     class Config:

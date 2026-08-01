@@ -1,15 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import MarkdownRenderer from './MarkdownRenderer';
 import ArtifactTabs from './ArtifactTabs';
 import ArtifactToolbar from './ArtifactToolbar';
 import { X } from 'lucide-react';
 
 export default function ArtifactViewer({ artifact, onClose }) {
-  const [activeTab, setActiveTab] = useState('preview'); // 'preview' or 'code'
+  const [activeTab, setActiveTab] = useState('preview');
+
+  useEffect(() => {
+    setActiveTab('preview');
+  }, [artifact]);
 
   if (!artifact) return null;
 
   const isHtml = artifact.artifact_type === 'html';
+  const isMarkdown = artifact.artifact_type?.toLowerCase() === 'markdown';
+  
+  const formattedPreviewContent = (isHtml || isMarkdown) 
+    ? artifact.artifact_content 
+    : `\`\`\`${artifact.artifact_type || 'text'}\n${artifact.artifact_content}\n\`\`\``;
 
   return (
     <div className="artifact-viewer">
@@ -37,7 +46,7 @@ export default function ArtifactViewer({ artifact, onClose }) {
             />
           ) : (
             <div className="markdown-body artifact-padding">
-              <MarkdownRenderer content={artifact.artifact_content} />
+              <MarkdownRenderer content={formattedPreviewContent} />
             </div>
           )
         ) : (

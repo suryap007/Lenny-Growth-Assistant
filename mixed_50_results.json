@@ -1,0 +1,407 @@
+{
+  "total": 50,
+  "passed": 50,
+  "failed": 0,
+  "details": [
+    {
+      "id": 1,
+      "input": "Debug this javascript promise chain",
+      "expected": "pi_code",
+      "actual": "pi_code",
+      "status": "PASS",
+      "time": 4.66
+    },
+    {
+      "id": 2,
+      "input": "Write a Ship30for30 essay about why retention is better than acquisition.",
+      "expected": "ship30",
+      "actual": "ship30",
+      "status": "PASS",
+      "time": 4.2
+    },
+    {
+      "id": 3,
+      "input": "write an essay on the cold start problem",
+      "expected": "ship30",
+      "actual": "ship30",
+      "status": "PASS",
+      "time": 4.24
+    },
+    {
+      "id": 4,
+      "input": "I got this error: sqlalchemy.exc.IntegrityError",
+      "expected": "pi_code",
+      "actual": "pi_code",
+      "status": "PASS",
+      "time": 4.28
+    },
+    {
+      "id": 5,
+      "input": "Fix this code: async def my_func(): pass",
+      "expected": "pi_code",
+      "actual": "pi_code",
+      "status": "PASS",
+      "time": 4.27
+    },
+    {
+      "id": 6,
+      "input": "Write a linkedin post about finding product market fit.",
+      "expected": "ship30",
+      "actual": "ship30",
+      "status": "PASS",
+      "time": 4.16
+    },
+    {
+      "id": 7,
+      "input": "Give me an sql query to calculate month-over-month retention",
+      "expected": "pi_code",
+      "actual": "pi_code",
+      "status": "PASS",
+      "time": 4.06
+    },
+    {
+      "id": 8,
+      "input": "Write a viral post about being a product manager",
+      "expected": "ship30",
+      "actual": "ship30",
+      "status": "PASS",
+      "time": 4.37
+    },
+    {
+      "id": 9,
+      "input": "Debug this FastAPI endpoint that keeps timing out",
+      "expected": "pi_code",
+      "actual": "pi_code",
+      "status": "PASS",
+      "time": 4.25
+    },
+    {
+      "id": 10,
+      "input": "Write a ship30for30 essay on remote work",
+      "expected": "ship30",
+      "actual": "ship30",
+      "status": "PASS",
+      "time": 4.24
+    },
+    {
+      "id": 11,
+      "input": "Can you write a linkedin post on startup metrics?",
+      "expected": "ship30",
+      "actual": "ship30",
+      "status": "PASS",
+      "time": 4.3
+    },
+    {
+      "id": 12,
+      "input": "Draft a viral twitter thread on A/B testing",
+      "expected": "ship30",
+      "actual": "ship30",
+      "status": "PASS",
+      "time": 4.3
+    },
+    {
+      "id": 13,
+      "input": "Write a python script that connects to Supabase",
+      "expected": "pi_code",
+      "actual": "pi_code",
+      "status": "PASS",
+      "time": 4.25
+    },
+    {
+      "id": 14,
+      "input": "Summarize Lenny's newsletter on performance reviews.",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 28.62
+    },
+    {
+      "id": 15,
+      "input": "What is the 'superhuman' framework for PMF?",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 26.83
+    },
+    {
+      "id": 16,
+      "input": "Can you give me 3 pricing strategies mentioned in the podcast?",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 29.72
+    },
+    {
+      "id": 17,
+      "input": "What are the common pitfalls of A/B testing?",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 26.34
+    },
+    {
+      "id": 18,
+      "input": "Draft a ship30 post on B2B pricing",
+      "expected": "ship30",
+      "actual": "ship30",
+      "status": "PASS",
+      "time": 4.24
+    },
+    {
+      "id": 19,
+      "input": "Here is a traceback, how do I fix it?",
+      "expected": "pi_code",
+      "actual": "pi_code",
+      "status": "PASS",
+      "time": 4.2
+    },
+    {
+      "id": 20,
+      "input": "What are the core metrics for a marketplace startup?",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 30.31
+    },
+    {
+      "id": 21,
+      "input": "Write a python script using pandas to analyze growth",
+      "expected": "pi_code",
+      "actual": "pi_code",
+      "status": "PASS",
+      "time": 4.13
+    },
+    {
+      "id": 22,
+      "input": "Write a javascript function to track user clicks",
+      "expected": "pi_code",
+      "actual": "pi_code",
+      "status": "PASS",
+      "time": 4.27
+    },
+    {
+      "id": 23,
+      "input": "Summarize the episode with Brian Chesky on Airbnb's early days.",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 21.3
+    },
+    {
+      "id": 24,
+      "input": "can you summarize the above in bullet points?",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 27.55
+    },
+    {
+      "id": 25,
+      "input": "Create a linkedin post about north star metrics",
+      "expected": "ship30",
+      "actual": "ship30",
+      "status": "PASS",
+      "time": 4.09
+    },
+    {
+      "id": 26,
+      "input": "I need a typescript interface for a user profile",
+      "expected": "pi_code",
+      "actual": "pi_code",
+      "status": "PASS",
+      "time": 4.03
+    },
+    {
+      "id": 27,
+      "input": "format that as a table",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 27.44
+    },
+    {
+      "id": 28,
+      "input": "Write a python script to scrape Lenny's newsletter",
+      "expected": "pi_code",
+      "actual": "pi_code",
+      "status": "PASS",
+      "time": 4.14
+    },
+    {
+      "id": 29,
+      "input": "Can you write some typescript for a React pricing component?",
+      "expected": "pi_code",
+      "actual": "pi_code",
+      "status": "PASS",
+      "time": 4.26
+    },
+    {
+      "id": 30,
+      "input": "I need a ship30 piece on how to do user interviews.",
+      "expected": "ship30",
+      "actual": "ship30",
+      "status": "PASS",
+      "time": 4.17
+    },
+    {
+      "id": 31,
+      "input": "I want to write a post about activation rate, make it viral",
+      "expected": "ship30",
+      "actual": "ship30",
+      "status": "PASS",
+      "time": 4.15
+    },
+    {
+      "id": 32,
+      "input": "What did Elena Verna say about B2B growth loops?",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 26.38
+    },
+    {
+      "id": 33,
+      "input": "How do I fix this code: list index out of range",
+      "expected": "pi_code",
+      "actual": "pi_code",
+      "status": "PASS",
+      "time": 4.14
+    },
+    {
+      "id": 34,
+      "input": "Explain the concept of 'activation' in user journeys.",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 25.67
+    },
+    {
+      "id": 35,
+      "input": "How did Figma scale their enterprise sales?",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 25.88
+    },
+    {
+      "id": 36,
+      "input": "Write a twitter thread summarizing the Airbnb growth story",
+      "expected": "ship30",
+      "actual": "ship30",
+      "status": "PASS",
+      "time": 10.48
+    },
+    {
+      "id": 37,
+      "input": "Give me a content piece about consumer growth loops",
+      "expected": "ship30",
+      "actual": "ship30",
+      "status": "PASS",
+      "time": 4.27
+    },
+    {
+      "id": 38,
+      "input": "Who are the best product leaders to follow?",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 41.27
+    },
+    {
+      "id": 39,
+      "input": "What is a north star metric?",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 17.36
+    },
+    {
+      "id": 40,
+      "input": "Fix this sql query it has a syntax error",
+      "expected": "pi_code",
+      "actual": "pi_code",
+      "status": "PASS",
+      "time": 4.18
+    },
+    {
+      "id": 41,
+      "input": "According to the knowledge base, how should I handle onboarding?",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 28.74
+    },
+    {
+      "id": 42,
+      "input": "can you write it in md file",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 25.6
+    },
+    {
+      "id": 43,
+      "input": "Write code for a FastAPI router with dependency injection",
+      "expected": "pi_code",
+      "actual": "pi_code",
+      "status": "PASS",
+      "time": 4.23
+    },
+    {
+      "id": 44,
+      "input": "What are the key differences between PLG and sales-led growth according to Lenny?",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 19.78
+    },
+    {
+      "id": 45,
+      "input": "How do I measure retention rate effectively?",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 26.17
+    },
+    {
+      "id": 46,
+      "input": "Write an essay on the transition from IC to manager",
+      "expected": "ship30",
+      "actual": "ship30",
+      "status": "PASS",
+      "time": 4.13
+    },
+    {
+      "id": 47,
+      "input": "Create a viral twitter thread on product-led growth.",
+      "expected": "ship30",
+      "actual": "ship30",
+      "status": "PASS",
+      "time": 4.19
+    },
+    {
+      "id": 48,
+      "input": "What is the definition of product-market fit?",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 18.61
+    },
+    {
+      "id": 49,
+      "input": "What is an aha moment?",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 12.49
+    },
+    {
+      "id": 50,
+      "input": "How do I conduct a good user interview?",
+      "expected": "qa",
+      "actual": "qa",
+      "status": "PASS",
+      "time": 25.02
+    }
+  ]
+}
